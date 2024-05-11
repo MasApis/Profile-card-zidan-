@@ -13,7 +13,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #F7EEDD;
+    background-color: #F1F1F1;
 }
 
 .profile-card {
@@ -22,7 +22,7 @@ body {
     flex-direction: column;
     max-width: 350px;
     width: 100%;
-    background-color: #41C9E2;
+    background-color: #EADBC8;
     padding: 23px;
     border-radius: 25px;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
@@ -38,7 +38,7 @@ body {
     border-radius: 25px 25px 0 0;
     width: 100%;
     height: 36%;
-    background-color: #008DDA;
+    background-color: #B5C18E;
 }
 
 .profile-card .image {
@@ -113,15 +113,16 @@ body {
     padding-right: 4px;
     border-radius: 25px;
     border: none;
-    background-color: #008DDA;
+    background-color: #C7B7A3;
     color: #fff;
     font-weight: 400;
     font-size: 15px;
     transition: all 0.5s ease-in-out;
+    transition-property: bacground-color;
 }
 
 .submit:hover {
-    background-color: rgb(3, 3, 220);
+    background-color: #EADBC8;
 }
 
 
